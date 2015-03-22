@@ -1,0 +1,65 @@
+*{
+	font-family: helvetica;
+}
+
+body{
+	background-image: url(http://static.squarespace.com/static/514a54cee4b04d7440e96b57/t/515f5cb2e4b01df404d0b466/1365204146180/Acceptance%20Philosophy.jpg);
+	padding-left: 10%;
+	padding-right: 5%;
+	padding-top:10%;
+	padding-bottom: 5%;
+}
+
+
+.center {
+	text-align: center;
+	line-height: 250%;
+}
+
+
+.lesson {
+	padding-top:5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	background-color: gray;
+	border-radius: 25px;
+	margin-bottom: 5%;
+	margin-top: 3%;
+}
+
+
+.list {
+  list-style: circle
+}
+
+.listo {
+	text-indent: 70px;
+}
+
+.liste {
+	text-indent: 110px;
+}
+
+/* The .content-box was something I experiemnted with.
+I ended up voting against the columns, but it took me 
+so long to figure out how to make the columns work 
+I decided to keep it.
+
+In the end I needed to add the "-webkit-" in front for
+it to work. I don't know why it needed that but I couldn't 
+get it to work otherwise. */
+
+.content-box {
+  	
+  	border-width:10px;
+  	border-color: black;
+   	-moz-column-count:2;
+    -webkit-column-count:2; 
+    column-count:2;
+    -moz-column-gap:5%;
+    -webkit-column-gap: 5%;
+    column-gap:5px;
+}
+    
+    
